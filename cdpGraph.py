@@ -7,6 +7,7 @@ def createGraph(cdpFile):
     file = open(cdpFile,"r")
     file_r = file.read()
     file.close()
+    
     file_r=file_r.split('\n')
     file_f = []
     for i in file_r:

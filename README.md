@@ -5,6 +5,10 @@ This takes in a CDP Crawl file and will out a graph as a png file. There are 2 e
 ## To Run
 python cdpGraph.py CdpCrawlFile.csv
 
+### Dependencies
+The only dependency pyDot if you dont have it:
+    `sudo apt-get install pydot`
+
 ### Notes
 Makes sure that all the hostnames in the CDP Crawl have the domain names removed. 
 Also makes sure that hostnames for the same device match up with themself and examples of this is:

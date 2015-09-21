@@ -7,7 +7,7 @@ python cdpGraph.py CdpCrawlFile.csv
 
 ### Dependencies
 The only dependency pyDot if you dont have it:
-    `sudo apt-get install pydot`
+    `pip install pydot`
 
 ### Notes
 Makes sure that all the hostnames in the CDP Crawl have the domain names removed. 

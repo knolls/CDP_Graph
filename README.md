@@ -6,7 +6,7 @@ This takes in a CDP Crawl file and will out a graph as a png file. There are 2 e
 python cdpGraph.py CdpCrawlFile.csv
 
 ### Dependencies
-The only dependency pyDot if you dont have it:
+The only dependencies are Linux and pyDot if you dont have it:
     `pip install pydot`
 
 ### Notes

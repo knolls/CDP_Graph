@@ -8,6 +8,8 @@ python cdpGraph.py CdpCrawlFile.csv
 ### Dependencies
 The only dependencies are Linux and pyDot if you dont have it:
     `pip install pydot`
+    If you dont have pip installed use the following:
+    `sudo apt-get install pip`
 
 ### Notes
 Makes sure that all the hostnames in the CDP Crawl have the domain names removed. 
